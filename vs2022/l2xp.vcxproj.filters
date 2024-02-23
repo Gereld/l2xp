@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\l2">
+      <UniqueIdentifier>{1A4E661C-06F0-90F2-EFAA-A446DBEB1743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\net">
+      <UniqueIdentifier>{E32030A9-4F00-AF44-5818-3A1BC47615A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Character.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CharacterPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Connection.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CrashReportDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Document.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Endpoint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainFrame.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Packet_bridge.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Packet_log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Panel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StackWalker.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dbg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2\Cipher.h">
+      <Filter>src\l2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2\GameServerPacketsNames.h">
+      <Filter>src\l2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2\GameServerPacketsTypes.h">
+      <Filter>src\l2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2\PacketExtractor.h">
+      <Filter>src\l2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2\PacketHandler.h">
+      <Filter>src\l2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2\SystemMessagesIds.h">
+      <Filter>src\l2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\l2xp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\IP_defragment.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\IPacket_processor.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\Packet_dump.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\Packet_filter.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\TCP_reassemble.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\headers.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\ip_header_helper.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\tcp_header_helper.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\tcp_ip_packet.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\net\tools.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdafx.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Character.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CharacterPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CrashReportDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Document.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Packet_bridge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Packet_log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Panel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StackWalker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dbg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\l2\Cipher.cpp">
+      <Filter>src\l2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\l2\GameServerPacketsNames.cpp">
+      <Filter>src\l2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\l2\PacketExtractor.cpp">
+      <Filter>src\l2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\l2\PacketHandler.cpp">
+      <Filter>src\l2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\l2xp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\IP_defragment.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\Packet_dump.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\Packet_filter.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\TCP_reassemble.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\tcp_ip_packet.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\tools.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdafx.cpp" />
+  </ItemGroup>
+</Project>
