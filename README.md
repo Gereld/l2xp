@@ -1,4 +1,4 @@
-# OpenGLLayeredWindow
+# l2xp
 
 This is the l2xp project.
 
@@ -15,7 +15,7 @@ Dependencies :
 # Building
 
 The project won't build but you can explore the sources with the provided Visual Studio solution.
-You can also generate a project for the IDE of your choice supported by premake5 :
+You can also generate a project for the IDE of your choice supported by premake5 :  
 `premake5 generator_of_choice --to=optional_out_of_source_directory`
 
 # Licensing
